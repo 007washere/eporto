@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("Screenshot 2025-04-23 181159.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white; /* Helps make text visible over image */
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  animation: headerColorChange 5s infinite alternate;
+  margin-top: 30px;
+}
+
+@keyframes headerColorChange {
+  0% {
+    color: #ffffff;
+  }
+  100% {
+    color: #00ffff;
+  }
+}
+
+.links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #00ffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.5); /* for better readability over image */
+  padding: 10px;
+  border-radius: 8px;
+}
